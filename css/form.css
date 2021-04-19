@@ -1,0 +1,58 @@
+/**
+ * Styles for the add-observation.html page 
+ */
+ fieldset {
+    border: 1px solid #00b4d8;
+	 border-radius: 20px;
+}
+
+legend{
+    font-size: large;
+    font-weight: bold;
+}
+
+.required:after {
+    content: "* ";
+    color: red;
+}
+
+
+.text-style
+{
+ color: black;
+ font-size: 18px;
+
+}
+
+.set-width
+{
+    width:80%;
+}
+
+
+ #locationLatitude{
+    color: red;
+    
+  
+ }
+ #locationLongitude{
+    color: red;
+    
+ }
+
+ #locationLatitude::before{
+    content: " "
+  
+ }
+
+ #locationLongitude::before{
+    content: " "
+  
+ }
+
+ #labelLatitude{
+    color: black;
+ }
+ #labelLongitude{
+    color: black;
+ }
